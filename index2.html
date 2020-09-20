@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess the number</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <h2>Guess The Number</h2>
+      </div>
+      <div id="body">
+        <div id="title">
+          <h1>1.2.3.</h1>
+        </div>
+        <div id="guessform">
+          <form>
+            <input
+              type="number"
+              id="guess"
+              name="guess"
+              value="What's your guess?"
+            />
+
+            <input type="submit" value="Submit" />
+          </form>
+          <button type="button" id="restart" class="btn btn-lg btn-light">
+            Restart
+          </button>
+        </div>
+        <div id="result"></div>
+        <div id="history"></div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
